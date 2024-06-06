@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Test Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="C:\Users\viole\Downloads\as1.png" height="50" width="50" class="image-src">
+
+        <section>
+            <a class="nav-item" href="#home" style="padding:8px; border-radius:9px">Home</a>
+            <a class="nav-item" href="#facilities" style="padding:8px; border-radius:9px";>Our Facilities</a>
+            <a class="nav-item" href="#achievement" style="padding:8px; border-radius: 9px">Achievement</a>
+            <a class="nav-item" href="#message us" style="padding:8px; border-radius: 9px">Message Us</a>
+
+        </section>
+    </nav>
+
+    <hr>
+
+    <section>
+        <!-- Home -->
+        <section id="home">
+            <header>
+                <h1>Hi this is Shellbi, Your Admin... Welcome to Website ^^ </h1>
+            </header>
+
+            <article>
+                <p>this is content</p>
+
+                <div class="banner-container">
+                    <div class="slider"></div>
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Our Profile -->
+        <section id="facilities">
+            <header>
+                <h1>Our Facilities</h1>
+            </header>
+
+            <article class="Facilities-list">
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>test refill</h5>
+                </div>
+
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>test refill</h5>
+                </div>
+
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>test refill</h5>
+                </div>
+            </article> 
+        </section>
+
+        <hr>
+
+        <!-- Achievement -->
+        <section id="achievement">
+            <header>
+                <h1>Achievement</h1>
+                <p>What are the achievements of our graduating students?</p>
+            </header>
+
+            <article class="achievements-list">
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>test refill</h5>
+                </div>
+
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>test refill</h5>
+                </div>
+
+                <div>
+                    <div style="width: 50px; height: 50px; border: 1px solid black;"></div>
+                    <h5>test refill</h5>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Message us -->
+        <section id="message us">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+
+            <section class="message-us-section">
+                <!-- Form -->
+                <section class="form-container">
+                    <form id="formulir">
+                        <div class="form-group">
+                            <label for="name">Name :</label>
+                            <input type="text" id="name-input" name="Name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="birthdate">Birthdate</label>
+                            <input type="date" id="birthdate" name="birthdate" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Jenis Kelamin:</label>
+                            <input type="radio" id="laki-laki" name="JenisKelamin" value="Laki-Laki" required>
+                            <label for="laki-laki">Laki-Laki</label>
+                            <input type="radio" id="perempuan" name="JenisKelamin" value="perempuan" required>
+                            <label for="perempuan">perempuan</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email :</label>
+                            <input type="text" id="email" name="YourEmail" placeholder="YourEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message :</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" id="submit" onclick="formValidation()">Submit</button>
+                    </form>
+                </section>
+
+                <!-- Result -->
+                <section class="result-container">
+                    <div class="form-result">
+
+                    </div>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <hr>
+
+    <footer class="footer">
+        <p class="paragraph-footer">built by Shellbitav Azazel on 2024 </p>
+    </footer>
+
+    <script src ="js/scripts.js"></script>
+</body>
+
+</html>
